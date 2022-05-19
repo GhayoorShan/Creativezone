@@ -1,0 +1,89 @@
+* {
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+}
+
+.header {
+  padding: 10px 40px;
+  background-color: #071733;
+}
+
+#nav-toggle-button {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.nav-item > a {
+  font-size: x-large;
+}
+
+.banner-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.banner-bottom {
+  background-color: #071733;
+}
+.banner-bottom > p {
+  max-width: 1100px;
+  font-size: xx-large;
+  font-weight: 700;
+}
+.services {
+  margin: 100px 100px;
+}
+
+.services-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.services-heading > p {
+  border-bottom: 7px solid #5ce0fe;
+  font-size: xxx-large;
+}
+.card:hover {
+  background-color: #071733;
+  color: white;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 100px !important;
+}
+.form-container > p {
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+.button-default__color {
+  background-color: #5ce0fe !important;
+}
+
+@media only screen and (max-width: 770px) {
+  .header {
+    padding: 10px;
+  }
+  .banner-image {
+    height: 300px;
+    object-fit: cover;
+    object-position: left;
+  }
+  .banner-bottom > p {
+    font-size: large;
+  }
+  .services {
+    margin: 20px 20px;
+  }
+  .services-heading {
+    padding: 10px !important;
+  }
+  .services-heading > p {
+    font-size: xx-large;
+  }
+  .form-container {
+    padding: 40px !important;
+  }
+}
